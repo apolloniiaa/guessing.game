@@ -144,6 +144,9 @@ input[type='number']::-webkit-inner-spin-button {
 }
 
 @media (max-width: 1024px) {
+  .wrapper {
+    margin: 5rem auto;
+  }
   .div-container {
     margin-top: 40px;
   }
@@ -162,9 +165,12 @@ input[type='number']::-webkit-inner-spin-button {
   }
 }
 @media (max-width: 640px) {
-  .div-container {
-    width: 250px;
+  .wrapper {
+    padding: 0;
+    margin: 2rem 2rem 0 2rem;
+    width: auto;
   }
+
   .guess {
     color: #ffde5b;
     font-size: 3rem;
